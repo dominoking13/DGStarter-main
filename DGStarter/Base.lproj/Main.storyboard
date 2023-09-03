@@ -164,7 +164,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Dino Guesser!" id="4do-mM-mbQ"/>
                     <connections>
-                        <segue destination="O3z-oU-03g" kind="show" identifier="detailSegue" id="agj-ou-doV"/>
+                        <segue destination="1D4-14-eqG" kind="show" identifier="detailSegue" id="n77-R8-lsc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -177,27 +177,28 @@
                 <tapGestureRecognizer id="jGa-Jk-rTb"/>
                 <tapGestureRecognizer id="BH2-kX-4Kw"/>
             </objects>
-            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="970" y="-2"/>
         </scene>
         <!--Detail View Controller-->
-        <scene sceneID="osQ-Zk-zv8">
+        <scene sceneID="Gar-qM-nVo">
             <objects>
-                <viewController id="O3z-oU-03g" customClass="DetailViewController" customModule="DGStarter" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7di-7X-9Uf">
+                <viewController id="1D4-14-eqG" customClass="DetailViewController" customModule="DGStarter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HNg-MH-2Op">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="fiO-nw-XWj"/>
+                        <viewLayoutGuide key="safeArea" id="hfI-CI-bkL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AP6-xj-hFp"/>
+                    <navigationItem key="navigationItem" id="3Cp-8H-jIe"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="38i-Yg-65G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDp-OY-cel" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1828" y="-9"/>
+            <point key="canvasLocation" x="1729" y="-31"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="i3u-Od-WZA">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Dt-mF-lzS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aOH-9G-ILs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zWZ-hP-u5o">
@@ -209,7 +210,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XhB-zv-2N9"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Dt-mF-lzS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
         </scene>
